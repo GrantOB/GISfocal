@@ -1,0 +1,9 @@
+QGIS instructions:
+the trick is to write a path name to the beachball.svg file as an attribute in the cmt shapefile, QGIS can then set the symbology from the svg file.
+layer properties > single symbol > symbol layer type = SVG marker
+the file path under SVG groups - far right drop down menu, select > field type (string) > foal mech (string)
+hit apply/ok
+also scale the size of the beachballs by the Mw etc. the same way
+
+ArcGIS and Google earth simple load the kml file (make sure it is in the same folder as the .png's it is linking to
+ArcGIS is clunky when displaying lots of images!
